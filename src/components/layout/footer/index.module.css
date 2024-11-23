@@ -30,6 +30,8 @@
     width: 20px;
     height: 20px;
     margin-right: 20px;
+    color: white;
+    transition: .3s
 }
 
 @media (max-width: 768px) {
@@ -41,4 +43,8 @@
     .footer svg {
         margin: 0 5px;
     }
+}
+
+.footer svg:hover {
+    color: gold !important;
 }

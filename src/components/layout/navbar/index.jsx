@@ -5,19 +5,15 @@ export function NavBar() {
     return (
         <nav className={styles.navbar}>
             <div>
-                <h1>FUTURO DEV</h1>
+                <h1>Stranger Things</h1>
             </div>
 
             <div>
                 <ul>
-                    <li>Home</li>
-                    <li>Sobre</li>
-                    <li>Contato</li>
-                    <span className={styles.navbar_separator}></span>
-                    <li><FaFacebook/></li>
-                    <li><FaTwitter/></li>
-                    <li><FaYoutube/></li>
-                    <li><FaPinterest/></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><FaFacebook/></a></li>
+                    <li><a href="https://twitter.com" target="_blank"><FaTwitter/></a></li>
+                    <li><a href="https://youtube.com" target="_blank"></a><FaYoutube/></li>
+                    <li> <a href="https://www.pinterest.com" target="_blank"><FaPinterest/></a></li>
                 </ul>
             </div>
         </nav>

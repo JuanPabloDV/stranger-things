@@ -7,7 +7,7 @@ export default function ArticleCard({ img, data, title, text, img_author, author
             <div>
                 <p>{data}</p>
                 <h3>{title}</h3>
-                <p>{text}</p>
+                <p className={styles.cardDescription}>{text}</p>
                 <div className={styles.card_line}></div>
 
                 <div className={styles.card_author}>

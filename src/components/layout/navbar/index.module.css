@@ -16,6 +16,7 @@
 
 .navbar h1 {
     font-size: 30px;
+    text-transform: uppercase;
 }
 
 .navbar div {
@@ -44,4 +45,13 @@
 .navbar svg {
     width: 20px;
     height: 20px;
+    transition: .3s
+}
+
+.navbar svg:hover {
+    color: gold;
+}
+
+.navbar a {
+    color: white;
 }

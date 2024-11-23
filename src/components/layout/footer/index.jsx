@@ -13,10 +13,10 @@ export default function Footer() {
 
                 <div>
                     <h3>Redes Sociais</h3>
-                    <FaFacebook/>
-                    <FaTwitter/>
-                    <FaYoutube/>
-                    <FaPinterest/>
+                    <a href="https://www.facebook.com" target="_blank"><FaFacebook/></a>
+                    <a href="https://twitter.com" target="_blank"><FaTwitter/></a>
+                    <a href="https://youtube.com" target="_blank"></a><FaYoutube/>
+                    <a href="https://www.pinterest.com" target="_blank"><FaPinterest/></a>
                 </div>
             </div>
         </footer>
