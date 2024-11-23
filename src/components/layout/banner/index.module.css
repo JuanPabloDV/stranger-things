@@ -16,3 +16,39 @@
     background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo da camada com transparência */
     z-index: 1; /* Coloca o pseudoelemento acima do conteúdo da div */
   }
+
+.bannerInfo {
+    background-color: rgba(18, 18, 18, 0.7);
+    max-width: 60%;
+    position: absolute;
+    bottom: 30%;
+    z-index: 10;
+    padding: 50px 100px 50px 70px
+}
+
+.bannerInfo h2 {
+    font-family: 'Lora';
+    font-size: 36px;
+    color: white;
+    max-width: 610px;
+    padding-bottom: 20px
+}
+
+.bannerContent {
+    display: flex;
+    aling-itens: center;
+}
+
+.division { 
+    margin: 7px 10px 0 10px;
+    width: 100px;
+    height: 1px;
+    background-color: #E5E5E5;
+}
+
+.bannerInfo span {
+    font-family: 'Lora';
+    color: #E5E5E5;
+    font-size: 12px;
+    max-width: 450px;
+}

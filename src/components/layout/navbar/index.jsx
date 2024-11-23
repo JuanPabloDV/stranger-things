@@ -11,9 +11,8 @@ export function NavBar() {
             <div>
                 <ul>
                     <li>Home</li>
-                    <li>About</li>
-                    <li>Articles</li>
-                    <li>Contact Us</li>
+                    <li>Sobre</li>
+                    <li>Contato</li>
                     <span className={styles.navbar_separator}></span>
                     <li><FaFacebook/></li>
                     <li><FaTwitter/></li>
